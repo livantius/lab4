@@ -81,14 +81,14 @@ public class DetailActivity extends AppCompatActivity {
                 DEFAULT_INGREDIENTS: TextUtils.join(DELIMITER, sandwich.getIngredients());
         String descriptionValue = sandwich.getDescription();
 
-        /*
+
         ImageView ingredientsIv = findViewById(R.id.image_iv);
         TextView mainNameTv = findViewById(R.id.main_name_tv);
         TextView alsoKnownAsTv = findViewById(R.id.also_known_tv);
         TextView originTv = findViewById(R.id.origin_tv);
         TextView descriptionTv = findViewById(R.id.description_tv);
         TextView ingredientsTv = findViewById(R.id.ingredients_tv);
-        */
+
 
         setTitle(mainNameValue);
 
